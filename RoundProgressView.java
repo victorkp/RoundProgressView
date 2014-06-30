@@ -1,18 +1,12 @@
-package com.example.roundedimagetest;
+package com.kaiser.pendergrast.view;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.PorterDuff.Mode;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.Rect;
 import android.graphics.RectF;
-import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
 import android.view.View;
+
 
 public class RoundedProgressView extends View {
 
@@ -89,7 +83,7 @@ public class RoundedProgressView extends View {
 	public void setListener(ProgressListener lis) {
 		mListener = lis;
 	}
-
+	
 	/**
 	 * Animate the progress of this RoundedProgressView from 0 to 1
 	 * 
@@ -131,7 +125,7 @@ public class RoundedProgressView extends View {
 	}
 
 	public void stopAnimatingProgress() {
-		mLoopLength = 0;
+		mLoopStart = 0;
 	}
 
 	protected void advanceProgress() {
