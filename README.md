@@ -6,7 +6,7 @@ RoundProgressView
 An elegant way to indicate progress. For Android, but intended for Google Glass GDK.
 
 ## Usage ##
-### Including In Your Project ## 
+### Including In Your Project ###
 Simply put `RoundProgressView.java` in with the rest of your source. The package currently defined in it is `com.kaiser.pendergrast.view`, but you can simply edit that to be whatever you want.
 
 ### Basic Usage ###
